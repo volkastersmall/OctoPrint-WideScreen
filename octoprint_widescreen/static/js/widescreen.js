@@ -49,18 +49,18 @@ $(function() {
 
 		self.onAllBound = function(){
 			// navbar adjustments
-			$('#navbar > div.navbar-inner > div.container').css({'width':'100%'});
-			$('#navbar > div.navbar-inner').css({'padding-left':'20px'});
-
+			$('#navbar > div.navbar-inner > div.container').css({'width':'1400px', 'margin-left':'auto', 'margin-right':'auto'});
+			$('#navbar > div.navbar-inner').css({'width':'100%'});
 			// main content adjustments
 			$('div.container.octoprint-container').addClass('row-fluid');
-			$('div.container.octoprint-container.row-fluid > div.row').css({'margin-left':'20px','padding-right':'20px'});
+			$('div.container.octoprint-container.row-fluid > div.row').css({'width':'1400px', 'margin-left':'auto', 'margin-right':'auto', 'padding-bottom': '20px'});
 
 			// sidebar adjustments
 			$('div.container.octoprint-container > div.row > div.accordion.span4:first').removeClass('span4').addClass('span3');
 			// $('#files div.row-fluid.upload-buttons > span.btn.btn-primary.fileinput-button.span6:nth-child(2) > span').text('Upload SD');
 
 			// footer adjustments
+			$('div.footer').css({'width':'1400px', 'margin-left':'auto', 'margin-right':'auto'});
 			$('ul#footer_version').css({'padding-left':'20px'});
 			$('ul#footer_links').css({'padding-right':'20px'});
 
